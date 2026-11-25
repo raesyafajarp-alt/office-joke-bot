@@ -8,7 +8,7 @@ byte for byte, on every run.
 
 import os
 
-ENTRY = "I got promoted to Senior \u2014 same desk, same pay, just a longer job title for my resignation letter."
+ENTRY = "I got promoted to Senior \u2014 same desk, same pay, just a longer title squeezed onto the same payslip."
 
 
 def main():

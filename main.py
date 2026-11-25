@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+"""One-Line Office Joke Laugh-Off entry.
+
+When run, writes a single original one-line joke about office life to
+/output/entry.txt. The output is fully deterministic: the same joke,
+byte for byte, on every run.
+"""
+
+import os
+
+ENTRY = "I got promoted to Senior \u2014 same desk, same pay, just a longer job title for my resignation letter."
+
+
+def main():
+    os.makedirs("/output", exist_ok=True)
+    with open("/output/entry.txt", "w", encoding="utf-8") as f:
+        f.write(ENTRY)
+
+
+if __name__ == "__main__":
+    main()

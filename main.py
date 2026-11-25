@@ -3,8 +3,8 @@
 
 When run, writes a single original one-line joke about office life to
 /output/entry.txt. The output is fully deterministic: the same joke,
-byte for byte, on every run. The punchline lands on the payslip: the
-promotion changes the title, not the pay.
+byte for byte, on every run. The joke works because the promotion only upgrades the job title printed
+on the payslip, while the salary itself stays exactly the same.
 """
 
 import os
